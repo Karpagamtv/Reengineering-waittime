@@ -21,8 +21,7 @@ insert into Orderline values('OL'||orderline_seq.nextval
 insert into Orderline values('OL'||orderline_seq.nextval,'O106', 'M107',1);
 insert into Orderline values('OL'||orderline_seq.nextval,'O100', 'M103',1);
 
-     
-----------------------------------------Report 2
+ --Customer Bill Generation
 
 select m.item_name "Item",trunc(billingtime) "Day",m.price "Price",m.discount "Discount",sum(ol.quantity) as "Quantity ordered" from 
         Orderline ol join Menu m on (m.item_no=ol.item_no) 
@@ -31,7 +30,7 @@ select m.item_name "Item",trunc(billingtime) "Day",m.price "Price",m.discount "D
        order by trunc(billingtime);
  --having trunc(billingtime) = '12-DEC-17';
  
--------Report 1 complete
+-------Daily Sales Report
 
 select c.order_date "Day",orders_num "Number of Orders", abv "Average Bill Value" ,FoodSales "Food Sales", 
 nonAlcoholic_Sales "Non-alcoholic drink Sales",Alcoholic_sales "Alcoholic drink Sales",net_sales "Net Sales"  from 
