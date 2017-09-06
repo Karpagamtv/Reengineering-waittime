@@ -1,0 +1,60 @@
+Reducing wait time for a fine dining restaurant
+
+Background:  A restaurant chain has several fine dining restaurants in many locations across the globe. Each restaurant is based in a large outdoor location and has a changing menu, based on a weekly theme (example:Halloween), which makes it unique. It is also known for its exceptional food, impeccable style and the outdoor ambience that varies by theme. These features of the restaurant have made it really popular among customers.
+
+Currently, the restaurant chain has no database management system in place and it operates on restaurant pagers for table reservation. Obtaining a table reservation is the biggest problem that the restaurant patron faces due to high demand and long wait times to serve and clear tables. 
+
+This has resulted in the loss of a significant customer base overall, which in turn led to decrease in overall revenue and market share in the restaurant industry space.
+
+The restaurant chain also wants to see improvement in their billing process which will in turn decrease the average time during the payment of bill. The proposal is to make a change to the existing business process to fix the current issues.
+
+Process Objectives:
+●	To minimize the wait time as much as possible and allocate tables more efficiently.
+Triggering Event :
+●	· Customer decided to dine at our fine dining restaurant
+· Interrelated Tasks
+●	Requests a table (by customer)
+●	Check table availability(by  reservation desk)
+●	Availability status update(by table management)
+●	Enroll the customer for waiting process (by reservation desk)
+●	Update to the pager system (by table management)
+●	Signal received when the table is free (by customer)
+●	Arrival at the table (by customer)
+●	Take order(by waiter)
+●	Serve the order (by waiter)
+●	Request for Bill (by customer)
+●	Invoice generation (by billing team)
+●	Payment collection (by waiter)
+
+ Specific Outcome
+●	 Wait time to obtain a table is significantly reduced.
+
+ Issues:  
+●	The waiting time to process the table reservation request is very high which resulted in reduction of customer traffic and eventually affected the restaurant’s revenue.
+●	Errors in communicating food order to the kitchen by wait staff.
+●	The billing process has multiple levels of interactions between reservation desk and table management which introduced delays in the process , leading to a decline in customer satisfaction.
+ 
+Solution: Utilize technology that collects data from point of sale to completion and 
+streamline restaurant operations at various parts in the as-is process. 
+We incorporate an end to end IT process that collects data from point of sale(when the customer walks in) to invoice generation. A guest manager software, that tracks each customer,  manages the restaurant wait list while improving table management and optimizing the reservation process.
+
+Table Reservation: They can now be made through the online portal or walking in directly. This feature is supported by the system storing actual table availabilities and updating in real time.
+Online portal
+●	Half of the restaurant tables are dedicated to online reservations.
+●	Customers can use the online facility to pre-order food from the menu. 
+●	A booking advance of 20% is taken which will be forfeited on order cancellation after thirty minutes of non-arrival.
+Walk-in
+When the customer walks-into the restaurant, the reservation desk people will cater to their reservation request through the online application instead of following the traditional approach of multiple interactions, and thereby enhancing the process.	
+
+Table Management
+All the waiting staff at the restaurant will have a tablet where they can take the order from the customer directly. This updates in the system real time and  chefs can refer to the orders directly on the display board in the kitchen. This will reduce the errors and reduction in time for waiting staff.  Invoice generation is also automatic due to orders being placed online or on the tablet.
+Customer Traffic Diversion
+Regular customers ordering online are given discount coupons to arrive at weekdays or non-peak hours  which  are relatively under-utilized. This will result in more customers attracted to the restaurant when it is not full.
+
+Results: 
+●	Waiting time of customer is reduced and overall experience improved
+●	Resources (tables, restaurant staff and amenities) across the board can be optimized.
+●	More customers are served in the same time period.
+●	Using a centralized, data oriented process reduces overhead due to human resources
+
+Long term benefits: The restaurant chain can analyze the collected data to understand customer profiles and make better business and marketing decisions. Insights from the platform can be used to improve experience and retarget the customer base.
